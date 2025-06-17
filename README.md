@@ -1,13 +1,21 @@
 Objective Questions
  
 List the different dtypes of columns in table “ball_by_ball” (using information schema)
+
 What is the total number of runs scored in 1st season by RCB (bonus: also include the extra runs using the extra runs table)
+
 How many players were more than the age of 25 during season 2014?
+
 How many matches did RCB win in 2013? 
+
 List the top 10 players according to their strike rate in the last 4 seasons
+
 What are the average runs scored by each batsman considering all the seasons?
+
 What are the average wickets taken by each bowler considering all the seasons?
+
 List all the players who have average runs scored greater than the overall average and who have taken wickets greater than the overall average
+
 Create a table rcb_record table that shows the wins and losses of RCB in an individual venue.
 What is the impact of bowling style on wickets taken?
 Write the SQL query to provide a status of whether the performance of the team is better than the previous year's performance on the basis of the number of runs scored by the team in the season and the number of wickets taken 
