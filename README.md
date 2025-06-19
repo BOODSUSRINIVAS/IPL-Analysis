@@ -1,4 +1,4 @@
-https://wallpapercave.com/wp/wp7433218.jpg
+![image alt](https://wallpapercave.com/wp/wp7433218.jpg)
 Objective Questions:-
  
 1. List the different dtypes of columns in table “ball_by_ball” (using information schema)
