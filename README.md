@@ -56,15 +56,3 @@ Subjective Questions
 10. How would you approach this problem, if the objective and subjective questions weren't given?
 
 11. In the "Match" table, some entries in the "Opponent_Team" column are incorrectly spelled as "Delhi_Capitals" instead of "Delhi_Daredevils". Write an SQL query to replace all occurrences of "Delhi_Capitals" with "Delhi_Daredevils".
-
-
-
-🔍 **Project Explanation: IPL Analysis
-📌 Objective**
-To help Royal Challengers Bangalore (RCB) identify top-performing and cost-effective players ahead of the 2017 mega auction, using performance data from past IPL seasons. The aim is to:
-
-Improve team selection strategy
-
-Optimize player auction investments
-
-Enhance match-winning capability using data-driven insights
