@@ -58,8 +58,9 @@ Subjective Questions
 11. In the "Match" table, some entries in the "Opponent_Team" column are incorrectly spelled as "Delhi_Capitals" instead of "Delhi_Daredevils". Write an SQL query to replace all occurrences of "Delhi_Capitals" with "Delhi_Daredevils".
 
 
-    🔍 Project Explanation: IPL Analysis
-📌 Objective
+
+🔍 **Project Explanation: IPL Analysis
+📌 Objective**
 To help Royal Challengers Bangalore (RCB) identify top-performing and cost-effective players ahead of the 2017 mega auction, using performance data from past IPL seasons. The aim is to:
 
 Improve team selection strategy
@@ -67,99 +68,3 @@ Improve team selection strategy
 Optimize player auction investments
 
 Enhance match-winning capability using data-driven insights
-
-📥 Data Acquisition
-The analysis utilized a comprehensive IPL database with multiple interrelated tables:
-
-Main tables: Player, Matches, Ball_by_Ball, Team, Venue
-
-Supporting tables: Batting_Style, Bowling_Style, Season, Outcome, Player_Match, etc.
-
-Data was sourced from open IPL archives and cleaned/formatted for structured SQL querying.
-
-🔧 Data Transformation
-Checked for nulls, duplicates, and outliers
-
-Used SQL JOINs to combine multiple tables
-
-Applied data type corrections and filtering logic
-
-Used DDL/DML operations to restructure tables if needed
-
-Created metrics such as averages, strike rates, and economy rates using:
-
-SUM(), AVG(), COUNT(DISTINCT), MAX(), MIN()
-
-Ranking functions to identify top performers
-
-🧱 Data Modelling
-Designed relationships between entities like Players, Matches, Venues, Teams
-
-Created aggregated views for:
-
-Player consistency
-
-Venue-wise performance
-
-All-rounder impact
-
-Toss decision trends
-
-Player-win correlation
-
-Focused on relational modeling via SQL
-
-📊 Data Visualization
-(Inferred, not shown in slides) Ideal visuals include:
-
-Bar charts for player averages
-
-Heatmaps for venue performances
-
-Pie/donut charts for toss decisions
-
-Line graphs for trends over seasons
-
-🔎 Key Insights
-Top Batsmen: Kohli, Warner, and de Villiers are consistent performers.
-
-Venue Strengths: Certain players dominate at specific venues (e.g., Kohli at Rajkot).
-
-Toss Patterns:
-
-Field-first at M Chinnaswamy & Eden Gardens
-
-Bat-first at Chepauk & Uppal
-
-All-rounders:
-
-Bravo, Bhajji, and Watson show high impact in both disciplines.
-
-Winning Impact:
-
-Pandey, Yadav, and Ashwin show a high correlation with match wins.
-
-🧠 Recommendations (with Reasoning)
-Boost Death-Over Power
-➤ Acquire finishers with high strike rates (e.g., Russell, Maxwell)
-
-Strengthen Spin Department
-➤ Focus on spinners for middle overs (e.g., Ashwin, Chawla) to control game tempo
-
-Leverage Home Advantage
-➤ At M. Chinnaswamy, build batting-heavy squads and chase more often
-
-Invest in All-Rounders
-➤ Target value-rich players like DJ Bravo, Chris Morris, or Russell to balance team
-
-Develop Existing Talent
-➤ Groom players like Washington Sundar for all-round roles
-
-Balance Youth with Experience
-➤ Mix veterans (Ashwin, Watson) with fresh talent to ensure continuity and stability
-
-✅ Conclusion
-With a data-backed auction and selection strategy focusing on venue-based strengths, death-over specialists, and versatile players, RCB can significantly enhance their chances of winning future IPL titles.
-
-
-
